@@ -18,3 +18,7 @@ The pin for bluetooth are
 You may use breadboard, custom circuit board to distribute power for the servo.
 
 The servo will be initial position (degree 0) for all servo during an early startup or reset.
+
+The robotic arm is remote controlled using mobile apps via bluetooth connection.
+
+The apps can be download at the link :
