@@ -26,17 +26,17 @@ void setup() {
   delay(20);
   Serial.begin(9600);
   // Move robot arm to initial position
-  servo1PPos = 0;
+  servo1PPos = 180;
   servo01.write(servo1PPos);
-  servo2PPos = 0;
+  servo2PPos = 180;
   servo02.write(servo2PPos);
-  servo3PPos = 0;
+  servo3PPos = 180;
   servo03.write(servo3PPos);
-  servo4PPos = 0;
+  servo4PPos = 180;
   servo04.write(servo4PPos);
-  servo5PPos = 0;
+  servo5PPos = 180;
   servo05.write(servo5PPos);
-  servo6PPos = 0;
+  servo6PPos = 180;
   servo06.write(servo6PPos);
 }
 void loop() {
